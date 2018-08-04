@@ -1,7 +1,13 @@
 # dex-理想中的编程语言模型
 ## design reference  C C++ [D](https://dlang.org/spec/spec.html) [Go](https://golang.org/ref/spec)
 
-# 1. basic types
+## package
+
+## grammar
+
+## declarations
+
+## basic types
 | type | size | range | 说明
 | --- | --- | --- | ---
 | int8 | 1 | [-128, 127] | 
@@ -26,7 +32,62 @@
 | string |  |  | 
 | rune |  |  | 
 
-# generic
+## keywords
+- if
+- switch
+- while
+- do while
+- foreach
+- for
+
+## [function](http://blog.golang.org/gos-declaration-syntax)
+ `func Name(para) ret`
+
+
+## generic
 - template function
 - template class
 - template struct
+
+## compile time
+- #if
+- #elseif
+- #elseif
+- #switch
+- #multiswitch
+- #foreach
+- #assert
+- #format
+- #message
+- #align
+- #templateName()
+- ##templateFunc()
+
+## overwrite
+
+## operator overloadings
+- operator +()
+- operator -()
+- operator *()
+- operator /()
+
+## properties
+
+## attributes
+
+## expressions
+
+## statement
+
+## oop
+
+## inner function
+
+## tests
+
+## examples
+
+## tools
+
+## reflect
+- @typeof(v)

@@ -31,6 +31,27 @@
 | bool | |  | 
 | string |  |  | 
 | rune |  |  | 
+| tuple |  |  | 
+| slice |  |  | 
+| array |  |  | 
+| struct |  |  | 
+| class |  |  | 
+| union |  |  | 
+| enum |  |  | 
+
+## packages
+
+## declarations
+- var a int
+- const b = 5
+- var f = func(a int)float32{}
+- g := func(a int)float32{}
+- func MyFunc(x, y int)int{ return x+y }
+- struct Mystruct{}
+- class Myclass{}
+- union MyUnion{}
+- enum MuEnum{}
+- template(T) func Add(x,y T) T{ return x+y }
 
 ## keywords
 - if
@@ -39,6 +60,11 @@
 - do while
 - foreach
 - for
+- typeof
+- rettypeof
+- multiswitch
+- auto
+- fallthrough
 
 ## [function](http://blog.golang.org/gos-declaration-syntax)
  `func Name(para) ret`
@@ -52,7 +78,7 @@
 ## compile time
 - #if
 - #elseif
-- #elseif
+- #else
 - #switch
 - #multiswitch
 - #foreach
@@ -62,6 +88,11 @@
 - #align
 - #templateName()
 - ##templateFunc()
+- #type
+- #rettype
+- #date
+- #time
+- #timestamp
 
 ## overwrite
 

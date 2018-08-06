@@ -1,5 +1,17 @@
-# dex-理想中的编程语言模型
-## design reference  C C++ [D](https://dlang.org/spec/spec.html) [Go](https://golang.org/ref/spec)
+# DEX: Ideal modern programming language design plan
+
+## Principles
+- Practical
+- Easy(read/write)
+- Full features
+- Fast(coding/compiling/running/testing)
+- Inherit(C family)
+
+## Design reference
+- [C](#)
+- [C++](#)
+- [D](https://dlang.org/spec/spec.html)
+- [Go](https://golang.org/ref/spec)
 
 ## package
 

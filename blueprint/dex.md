@@ -1,11 +1,13 @@
 # DEX: Ideal modern programming language design plan
 
-## Principles
+## Principles of design
 - Practical
-- Easy(read/write)
+- Easy(read/write/etc)
 - Full features
-- Fast(coding/compiling/running/testing)
-- Inherit(C family)
+- Fast(coding/compiling/running/testing/etc)
+- Inherit(C-family)
+- Treat everything equally(types/syntax/etc)
+- Reading beautify 
 
 ## Design reference
 - [C](#)
@@ -14,6 +16,9 @@
 - [Go](https://golang.org/ref/spec)
 
 ## package
+- root
+- project root
+- refer go package
 
 ## grammar
 

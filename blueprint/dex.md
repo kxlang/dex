@@ -15,6 +15,22 @@
 - [D](https://dlang.org/spec/spec.html)
 - [Go](https://golang.org/ref/spec)
 
+## Features
+- enough build-in types
+- tuple
+- interface
+- compile-time calculating
+- properties
+- clean grammar
+- templates
+- function overloading
+- operator overloading
+- buildin-testing
+- reflect
+- package
+- with-object C?
+- no oop?
+
 ## package
 - root
 - project root
@@ -33,6 +49,7 @@
 | int64 | 8 |  | 
 | int128 | 16 |  | 
 | int | 4 or 8 |  | 
+| byte | 1 | [0, 255] | 
 | uint8 | 1 | [0, 255] | 
 | uint16 | 2 |  | 
 | uint32 | 4 |  | 
@@ -51,10 +68,13 @@
 | tuple |  |  | 
 | slice |  |  | 
 | array |  |  | 
+| map |  |  | 
 | struct |  |  | 
 | class |  |  | 
 | union |  |  | 
 | enum |  |  | 
+| tuple |  |  | 
+
 
 ## packages
 
@@ -77,11 +97,13 @@
 - do while
 - foreach
 - for
-- typeof
-- rettypeof
-- multiswitch
+- type
+- rettype
+- mulswitch
 - auto
 - fallthrough
+- range
+- tuple
 
 ## [function](http://blog.golang.org/gos-declaration-syntax)
  `func Name(para) ret`
@@ -89,15 +111,16 @@
 
 ## generic
 - template function
-- template class
 - template struct
+- template union
+- template enum
 
 ## compile time
 - #if
 - #elseif
 - #else
 - #switch
-- #multiswitch
+- #mulswitch
 - #foreach
 - #assert
 - #format
@@ -127,7 +150,7 @@
 
 ## statement
 
-## oop
+## oop - do not need?
 
 ## inner function
 
@@ -138,4 +161,5 @@
 ## tools
 
 ## reflect
-- @typeof(v)
+- #typeof(v)
+- #@$

@@ -17,7 +17,7 @@
 
 ## Features
 - enough build-in types
-- tuple
+- tuple,map,array,slice
 - interface
 - compile-time calculating
 - properties
@@ -29,7 +29,7 @@
 - reflect
 - package
 - with-object C?
-- no oop?
+- no class, no inherit?
 
 ## package
 - root
@@ -65,7 +65,6 @@
 | bool | |  | 
 | string |  |  | 
 | rune |  |  | 
-| tuple |  |  | 
 | slice |  |  | 
 | array |  |  | 
 | map |  |  | 
@@ -75,38 +74,47 @@
 | enum |  |  | 
 | tuple |  |  | 
 
-
-## packages
-
 ## declarations
 - var a int
 - const b = 5
 - var f = func(a int)float32{}
 - g := func(a int)float32{}
 - func MyFunc(x, y int)int{ return x+y }
-- struct Mystruct{}
-- class Myclass{}
-- union MyUnion{}
-- enum MuEnum{}
+- type Mystruct struct{}
+- type MyUnion union{}
+- type MyEnum enum {}
 - template(T) func Add(x,y T) T{ return x+y }
 
 ## keywords
 - if
 - switch
+- multiswitch
 - while
 - do while
 - foreach
 - for
-- type
-- rettype
-- mulswitch
+- decltype
 - auto
 - fallthrough
 - range
+- type
+- func
+- struct
+- union
+- enum
 - tuple
+- map
 
 ## [function](http://blog.golang.org/gos-declaration-syntax)
  `func Name(para) ret`
+
+## interface
+```
+implements someInterface{
+	someTypeA
+	someTypeB
+}
+```
 
 
 ## generic

@@ -4,7 +4,7 @@
 
 ## 0. reference:
 - [Russ Cos: interface](https://research.swtch.com/interfaces) 
-- [Ian Lance Taylor: go interface] (https://www.airs.com/blog/archives/277)
+- [Ian Lance Taylor: go interface](https://www.airs.com/blog/archives/277)
 
 ---------------------------
 

@@ -6,7 +6,7 @@
 - Full features
 - Fast(coding/compiling/running/testing/etc)
 - Inherit(C-family)
-- Treat everything equally(types/syntax/etc)
+- Treat everything equally(build-in/types/syntax/etc)
 - Reading beautify 
 
 ## Design reference
@@ -36,12 +36,18 @@
 - project root
 - refer go package
 
+A package is in a single directory.
+
+A package can have any number of files.
+
+Test files and template files is sperate from nomal code files. *.dex *.test
+
 ## grammar
 
 ## declarations
 
 ## basic types
-| type | size | range | 说明
+| type | size | range | desc
 | --- | --- | --- | ---
 | int8 | 1 | [-128, 127] | 
 | int16 | 2 |  | 
@@ -87,14 +93,15 @@
 
 ## keywords
 - if
+- else
 - switch
 - multiswitch
 - while
 - do while
 - foreach
 - for
-- decltype
-- auto
+- break
+- continue
 - fallthrough
 - range
 - type
@@ -104,12 +111,53 @@
 - enum
 - tuple
 - map
+- decltype
+- auto
+- lazy
+- alias
+- interface
+- template
+- mixin
+- nil
+- iota
+
+## operator
+- +
+- -
+- *
+- /
+
+## enums
+```
+type enumName enum dataType_opt{}
+```
+
+## unions
+```
+type unionName union {}
+```
+
+## structs
+```
+type structName struct {}
+```
+
+## consts
+- prefix
+- suffix
+- strings
 
 ## [function](http://blog.golang.org/gos-declaration-syntax)
- `func Name(para) ret`
+ ```
+func Name(para) retType
+```
 
 ## interface
 ```
+type someInterface interface{
+	someFun1(para int)int
+	someFun2(para string)string
+}
 implements someInterface{
 	someTypeA
 	someTypeB
@@ -122,6 +170,7 @@ implements someInterface{
 - template struct
 - template union
 - template enum
+- which package will the gp and generated code in? 
 
 ## compile time
 - #if
@@ -142,13 +191,25 @@ implements someInterface{
 - #time
 - #timestamp
 
-## overwrite
+## override
 
-## operator overloadings
+## operator override
+- operator =()
+- operator ==()
+- operator >()
+- operator >=()
+- operator <()
+- operator <=()
 - operator +()
 - operator -()
 - operator *()
 - operator /()
+- operator &()
+- operator |()
+- operator ~()
+- operator >>()
+- operator <<()
+- operator >>>()
 
 ## properties
 
@@ -160,13 +221,15 @@ implements someInterface{
 
 ## oop - do not need?
 
-## inner function
+## build-in functions
 
 ## tests
+- *.test files
 
 ## examples
 
 ## tools
+- dox
 
 ## reflect
 - #typeof(v)

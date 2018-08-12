@@ -56,13 +56,18 @@ implements *filepath.FilePath{
 ```
 
 ## 4. Go's non-invasive way to describ the world
-
 There is an interesting example.
+
 How to describ a mermaid,  mankind or fish？
+
 In C++/Java way(invasive interface), try to descrbe a mermaid may cause confusion.
+
 It will cause the "class diagram" change no matter describe mermaid as mankind or fish.
+
 Because mermaid will break the definition of both mankind and fish.
 
 In Go way(non-invasive interface). It is an easy way:
+
 Mermaid is a "Swimmer" and "Speaker", and is not a "Walker".
+
 It has nothing to do with  mankind or fish.

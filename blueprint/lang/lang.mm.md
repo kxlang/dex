@@ -1,5 +1,18 @@
 # xlang design
 
+## design bases
+### easy to learn & parse
+### With generic support
+### Compile time & runtime
+### treat buildin type & user type as the same
+### Swichable GC
+### build fast
+### test
+### package manage
+### rely manage
+### Metaprogramming
+### dynamic & functional feature
+
 ## type
 ### int
 ### int8
@@ -18,6 +31,7 @@
 ### struct
 ### array/slice
 ### map
+### tuple
 
 ## data
 ### const
@@ -27,6 +41,12 @@
 ## compile-time caculation
 ## expression & statement
 ## function & method
+### method
+### static function
+### operator function
+## operator
+### + - * / % ^ & | ~
+## multi-swich
 ## OOP
 ## overload
 ## runtime

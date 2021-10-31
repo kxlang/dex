@@ -2,7 +2,6 @@
 
 ## design bases
 ### easy to learn & parse
-### With generic support
 ### Compile time & runtime
 ### treat buildin type & user type as the same
 ### Swichable GC
@@ -13,7 +12,7 @@
 ### Metaprogramming
 ### dynamic & functional feature
 
-## type
+## type system
 ### int
 ### int8
 ### int16
@@ -34,26 +33,23 @@
 ### tuple
 
 ## data
-### const
-### var
-### immut
-## generic programming
+### const & var & mut
 ## compile-time caculation
 ## expression & statement
 ## function & method
-### method
-### static function
+### static function & data
 ### operator function
-## operator
-### + - * / % ^ & | ~
-## multi-swich
+## operator  + - * / % ^ & | ~ >> << *=
+## multi-swich?
+## static-switch?
+## static if?
 ## OOP
 ## overload
 ## runtime
 ## memory management
 ## package
 ## interface
-## enum--name and ID mapping
+## enum ID & name mapping
 ## concurrent
 ## conditional compilation & macro
 ## C stack
@@ -65,3 +61,13 @@
 ## code format
 ## test
 ## standard library
+## variable shadowing
+## code generation
+## meta programming
+## macro
+## error handling
+## access right & life time
+
+## L0 lang: meta programming & macro & code generation
+## L1 lang: static typing syntax
+## L2 lang: dynamic typing & eval

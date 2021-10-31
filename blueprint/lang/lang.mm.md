@@ -67,6 +67,8 @@
 ## macro
 ## error handling
 ## access right & life time
+## private & public
+## key words
 
 ## L0 lang: meta programming & macro & code generation
 ## L1 lang: static typing syntax
